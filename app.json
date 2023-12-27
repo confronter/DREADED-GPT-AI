@@ -19,7 +19,7 @@
   "logo": "https://telegra.ph/file/d6dab955fbaa42fce2280.jpg",
   "success_url": "/",
   "env": {
-    "PREFIX": {
+    "PREFIX": {"."
       "description": "Prefix of dreaded bot Ex: . , / , # , & etc. Put any symbol",
       "required": true
 
@@ -55,16 +55,16 @@
       "required": true
     },
       "AUTOREAD": {
-      "description": "Put here TRUE if you want bot to automatically bluetick messages in private chats",
+      "description": "true",
       "required": true
 },
  "AUTOVIEW": {
-      "description": "Input true if you want bot to automatically read status update",
-      "required": false
+      "description": "true",
+      "required": true
 },
  "WA_PRESENCE": {
-      "description": "Input either recording or typing. This enables bot to simulate typing or recording.",
-      "required": false
+      "description": "recording",
+      "required": true
 },
  "ANTILINK": {
       "description": "Input TRUE if you want bot to kick link senders",
